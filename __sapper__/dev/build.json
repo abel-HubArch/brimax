@@ -1,0 +1,57 @@
+{
+  "bundler": "rollup",
+  "shimport": "2.0.4",
+  "assets": {
+    "main": "client.9a2e800e.js"
+  },
+  "css": {
+    "main": [
+      "client-2e9bc464.css"
+    ]
+  },
+  "dependencies": {
+    "index.svelte": [
+      "index.85ef4328.js",
+      "contacto.55f1732d.js",
+      "letras_briimax.c1085f76.js",
+      "inject_styles.5607aec6.js",
+      "contacto-3178c597.css",
+      "index-9f14f695.css"
+    ],
+    "overol/index.svelte": [
+      "index.c8b00c72.js",
+      "editar_overol.1ece9cb4.js",
+      "index.39d8809d.js",
+      "letras_briimax.c1085f76.js",
+      "inject_styles.5607aec6.js",
+      "editar_overol-a37565a6.css",
+      "index-fe5500a6.css",
+      "index-dfe783f9.css"
+    ],
+    "overol/editar_overol.svelte": [
+      "editar_overol.1ece9cb4.js",
+      "inject_styles.5607aec6.js",
+      "editar_overol-a37565a6.css"
+    ],
+    "about.svelte": [
+      "about.c34a72e8.js",
+      "index.39d8809d.js",
+      "letras_briimax.c1085f76.js",
+      "inject_styles.5607aec6.js",
+      "index-fe5500a6.css",
+      "about-71a89703.css"
+    ],
+    "blog/index.svelte": [
+      "index.233aab95.js",
+      "contacto.55f1732d.js",
+      "about.c34a72e8.js",
+      "index.39d8809d.js",
+      "letras_briimax.c1085f76.js",
+      "inject_styles.5607aec6.js",
+      "contacto-3178c597.css",
+      "index-fe5500a6.css",
+      "about-71a89703.css",
+      "index-753d1376.css"
+    ]
+  }
+}
