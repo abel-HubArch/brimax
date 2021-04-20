@@ -25,6 +25,7 @@
 
 	}
 	.contenedor{
+		
         display: flex;
 		color: #ffffff;
 		align-items: center;
@@ -32,6 +33,8 @@
 	.menu{
 		margin: auto;
         display: grid;
+		
+		
 	}
 	.menu .text-welcome{
 		margin: auto;
@@ -134,7 +137,8 @@
 			 <h4>ROPA INDUSTRIAL PERSONALIZABLE</h4>
 		 </div>
 			 <img class="animate__animated animate__fadeIn" src="{briimax_letras}"  alt="">
-	        <a aria-current="{segment === undefined ? 'page' : undefined}" href=".">INICIO</a>
+			<a rel=prefetch aria-current="{segment === 'sobre_nosotros' ? 'page' : undefined}" href="sobre_nosotros">INICIO</a>
+			<a rel=prefetch aria-current="{segment === 'venta' ? 'page' : undefined}" href="venta">MODELOS</a>
 	    	<a class="animate__animated animate__wobble animate__delay-4s " aria-current="{segment === 'about' ? 'page' : undefined}" href="about">HECHO A TU MEDIDA</a>
             
 		 <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches

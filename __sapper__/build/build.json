@@ -2,26 +2,30 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.00894bdd.js"
+    "main": "client.30b0b10a.js"
   },
   "css": {
     "main": [
-      "client-f8986d02.css"
+      "client-b54ad953.css"
     ]
   },
   "dependencies": {
     "index.svelte": [
-      "index.c586a5f7.js",
-      "contacto.27d1c09b.js",
+      "index.0eb77951.js",
+      "contacto.fd377109.js",
       "letras_briimax.c1085f76.js",
       "inject_styles.5607aec6.js",
       "contacto-3178c597.css",
-      "index-9f14f695.css"
+      "index-e77442aa.css"
+    ],
+    "sobre_nosotros.svelte": [
+      "sobre_nosotros.7152ebc5.js",
+      "inject_styles.5607aec6.js"
     ],
     "overol/index.svelte": [
-      "index.30d40843.js",
-      "editar_overol.73d128fc.js",
-      "logo.bf0f08ce.js",
+      "index.d50edab2.js",
+      "editar_overol.de41d346.js",
+      "logo.f6aa1d19.js",
       "letras_briimax.c1085f76.js",
       "index.2ea1237d.js",
       "inject_styles.5607aec6.js",
@@ -30,35 +34,39 @@
       "index-d43238f5.css"
     ],
     "overol/editar_overol.svelte": [
-      "editar_overol.73d128fc.js",
+      "editar_overol.de41d346.js",
       "inject_styles.5607aec6.js",
       "editar_overol-a37565a6.css"
     ],
     "about.svelte": [
-      "about.ca16d56b.js",
+      "about.b2c667a7.js",
       "about.62f00e22.js",
       "index.2ea1237d.js",
-      "logo.bf0f08ce.js",
+      "logo.f6aa1d19.js",
       "letras_briimax.c1085f76.js",
       "inject_styles.5607aec6.js",
       "about-71a89703.css",
       "logo-fe5500a6.css",
       "about-050232c9.css"
     ],
+    "venta.svelte": [
+      "venta.20d879a0.js",
+      "inject_styles.5607aec6.js"
+    ],
     "blog/index.svelte": [
-      "index.bde57ffc.js",
-      "contacto.27d1c09b.js",
+      "index.c02f1bc5.js",
+      "contacto.fd377109.js",
       "about.62f00e22.js",
-      "logo.bf0f08ce.js",
+      "logo.f6aa1d19.js",
       "letras_briimax.c1085f76.js",
       "inject_styles.5607aec6.js",
       "contacto-3178c597.css",
       "about-71a89703.css",
       "logo-fe5500a6.css",
-      "index-753d1376.css"
+      "index-e9f233c0.css"
     ]
   },
   "legacy_assets": {
-    "main": "client.a4f2d9ad.js"
+    "main": "client.f81d6a62.js"
   }
 }
