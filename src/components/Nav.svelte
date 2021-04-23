@@ -6,7 +6,7 @@
 
   let abrirMenu = ()=>{
   if(menu1 == 'scrolling-wrapperClosed' && menu2 == 'menuClosed'){
-    menu1 = 'scrolling-wrapper animate__animated animate__fadeIn';
+    menu1 = 'scrolling-wrapper';
     menu2 = 'menu'
   }else{
     menu1 = 'scrolling-wrapperClosed';
@@ -30,9 +30,24 @@
   text-align: center;
  
   }
+  .scrolling-wrapperClosed {
+  font-family: 'Nunito Sans', sans-serif;
+  white-space: nowrap;
+  color: rgb(253, 252, 250);
+  background-color: black;
+  height: 40px;
+  text-align: center;
+ 
+  }
   .scrolling-wrapper .nav{
+    color: rgb(253, 252, 250);
     display: none;
     background-color: black;
+  }
+  .scrolling-wrapperClosed .nav{
+    display: none;
+    background-color: black;
+    color: rgb(253, 252, 250);
   }
   
   .card {
@@ -42,11 +57,13 @@
 	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
+  color: rgb(253, 252, 250);
   
   }
   a{
 	  text-decoration: none;
 	  transition-duration: 200ms;
+    color: rgb(253, 252, 250);
   }
   a:hover{
 	  color: #DD9D10;
@@ -85,7 +102,10 @@
     height: 70px;
     margin-left: 10px;
   }
-  
+  .scrolling-wrapperClosed .nav{
+    display: block;
+    background-color: black;
+  }
   /*Menu cerrado*/
   .menuClosed{
     display: none;

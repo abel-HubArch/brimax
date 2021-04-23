@@ -1,1 +1,11 @@
 informacion del proyecto para actulizarlo
+
+Estas Son las transiciones de svelte{
+exports.blur = blur;
+exports.crossfade = crossfade;
+exports.draw = draw;
+exports.fade = fade;
+exports.fly = fly;
+exports.scale = scale;
+exports.slide = slide;
+}

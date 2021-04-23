@@ -2,63 +2,96 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.1a6ab34d.js"
+    "main": "client.15509155.js"
   },
   "css": {
     "main": [
-      "client-c4c52912.css"
+      "client-8aba133b.css"
     ]
   },
   "dependencies": {
     "index.svelte": [
-      "index.cd7035f8.js",
-      "contacto.e41723c8.js",
+      "index.5642df0c.js",
+      "redes_sociales.1aa8ed91.js",
+      "contacto.6e50b467.js",
       "letras_briimax.c1085f76.js",
+      "index.fcdc68d1.js",
       "inject_styles.5607aec6.js",
-      "contacto-3178c597.css",
-      "index-e77442aa.css"
+      "redes_sociales-9a025bd3.css",
+      "contacto-3711aa57.css",
+      "index-de125d3b.css"
     ],
     "sobre_nosotros.svelte": [
-      "sobre_nosotros.04e48a6b.js",
-      "inject_styles.5607aec6.js"
-    ],
-    "overol/index.svelte": [
-      "index.a252c7dd.js",
-      "editar_overol.1677ccf6.js",
-      "index.ac5867a5.js",
+      "sobre_nosotros.03c74c01.js",
+      "redes_sociales.1aa8ed91.js",
+      "overoles.e9e30e28.js",
+      "logo.65c62ee1.js",
       "letras_briimax.c1085f76.js",
       "inject_styles.5607aec6.js",
+      "redes_sociales-9a025bd3.css",
+      "overoles-bbcd08ac.css",
+      "logo-fe5500a6.css",
+      "sobre_nosotros-9d526d58.css"
+    ],
+    "overol/index.svelte": [
+      "index.32039192.js",
+      "editar_overol.ed074cf6.js",
+      "logo.65c62ee1.js",
+      "letras_briimax.c1085f76.js",
+      "index.fcdc68d1.js",
+      "inject_styles.5607aec6.js",
       "editar_overol-a37565a6.css",
-      "index-fe5500a6.css",
-      "index-dfe783f9.css"
+      "logo-fe5500a6.css",
+      "index-fa9de4b3.css"
     ],
     "overol/editar_overol.svelte": [
-      "editar_overol.1677ccf6.js",
+      "editar_overol.ed074cf6.js",
       "inject_styles.5607aec6.js",
       "editar_overol-a37565a6.css"
     ],
     "about.svelte": [
-      "about.7cbafdca.js",
-      "index.ac5867a5.js",
+      "about.921b6afe.js",
+      "overoles.e9e30e28.js",
+      "disenos_personalizables.5a21aa7a.js",
+      "index.fcdc68d1.js",
+      "logo.65c62ee1.js",
       "letras_briimax.c1085f76.js",
       "inject_styles.5607aec6.js",
-      "index-fe5500a6.css",
-      "about-71a89703.css"
+      "overoles-bbcd08ac.css",
+      "disenos_personalizables-c7a39672.css",
+      "logo-fe5500a6.css",
+      "about-c879da0c.css"
     ],
     "venta.svelte": [
-      "venta.f4cca11c.js",
-      "inject_styles.5607aec6.js"
+      "venta.d479df16.js",
+      "disenos_personalizables.5a21aa7a.js",
+      "overoles.e9e30e28.js",
+      "logo.65c62ee1.js",
+      "letras_briimax.c1085f76.js",
+      "index.fcdc68d1.js",
+      "inject_styles.5607aec6.js",
+      "overoles-bbcd08ac.css",
+      "disenos_personalizables-c7a39672.css",
+      "logo-fe5500a6.css",
+      "venta-1b42711c.css"
     ],
     "blog/index.svelte": [
-      "index.41bbfc5e.js",
-      "contacto.e41723c8.js",
-      "about.7cbafdca.js",
-      "index.ac5867a5.js",
+      "index.afafea4e.js",
+      "contacto.6e50b467.js",
+      "redes_sociales.1aa8ed91.js",
+      "about.921b6afe.js",
+      "overoles.e9e30e28.js",
+      "disenos_personalizables.5a21aa7a.js",
+      "index.fcdc68d1.js",
+      "logo.65c62ee1.js",
       "letras_briimax.c1085f76.js",
       "inject_styles.5607aec6.js",
-      "contacto-3178c597.css",
-      "index-fe5500a6.css",
-      "about-71a89703.css",
+      "contacto-3711aa57.css",
+      "redes_sociales-9a025bd3.css",
+      "overoles-bbcd08ac.css",
+      "disenos_personalizables-c7a39672.css",
+      "logo-fe5500a6.css",
+      "about-c879da0c.css",
       "index-e9f233c0.css"
     ]
   }

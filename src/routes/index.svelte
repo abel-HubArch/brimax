@@ -2,9 +2,13 @@
 	import RedesSociales from './../components/redes_sociales.svelte';
 	import Contacto from './../components/contacto.svelte';
 	import briimax_letras from 'images/letras_briimax.png';
-    
+    import {slide} from 'svelte/transition';
 	export let segment;
     
+let y;
+$: console.log(y);
+
+
     
 </script>
 
@@ -128,26 +132,32 @@
 	<title>Briimax</title>
 	
 </svelte:head>
-
+<svelte:window bind:scrollY={y}/>
 <body>
+	
+  
+		 <!-- content here -->
+		 	
 	<div class="body1 contenedor">
-		 <div class="menu" id='menu'>
-			 <div class="text-welcome animate__animated animate__fadeIn">
-			 <h1>ROPA INDUSTRIAL</h1> <hr>
-			 <h4>ROPA INDUSTRIAL PERSONALIZABLE</h4>
-		 </div>
-			 <img class="animate__animated animate__fadeIn" src="{briimax_letras}"  alt="">
-			<a rel=prefetch aria-current="{segment === 'sobre_nosotros' ? 'page' : undefined}" href="sobre_nosotros">INICIO</a>
-			<a rel=prefetch aria-current="{segment === 'venta' ? 'page' : undefined}" href="venta">MODELOS</a>
-	    	<a class="animate__animated animate__wobble animate__delay-4s " aria-current="{segment === 'about' ? 'page' : undefined}" href="about">HECHO A TU MEDIDA</a>
-            
-		 <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-	    	<a class="animate__animated animate__wobble animate__delay-5s" rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">CONTACTO</a>
-		      
-		  <RedesSociales></RedesSociales>
-	     </div>
-		
-    </div>
+		<div class="menu" id='menu' transition:slide>
+			<div class="text-welcome animate__animated animate__fadeIn">
+			<h1>ROPA INDUSTRIAL</h1> <hr>
+			<h4>ROPA INDUSTRIAL PERSONALIZABLE</h4>
+		</div>
+			<img class="animate__animated animate__fadeIn" src="{briimax_letras}"  alt="">
+		   <a rel=prefetch aria-current="{segment === 'sobre_nosotros' ? 'page' : undefined}" href="sobre_nosotros">INICIO</a>
+		   <a rel=prefetch aria-current="{segment === 'venta' ? 'page' : undefined}" href="venta">MODELOS</a>
+		   <a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">HECHO A TU MEDIDA</a>
+		   
+		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
+			the blog data when we hover over the link or tap it on a touchscreen -->
+		   <a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">CONTACTO</a>
+			 
+		 <RedesSociales></RedesSociales>
+		</div>
+	   
+   </div>
+
+
 
 </body>

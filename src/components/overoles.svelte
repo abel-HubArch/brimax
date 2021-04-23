@@ -13,7 +13,8 @@
     <style>
          @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
         .scrolling-wrapper {
-        
+        transition-delay:300ms ;
+        transition-duration: 200ms;
       overflow-x: scroll;
       overflow-y: hidden;
       white-space: nowrap;
