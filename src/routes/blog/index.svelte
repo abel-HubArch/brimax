@@ -4,7 +4,7 @@
 	import RedesSociales from './../../components/redes_sociales.svelte';
 	import About from './../about.svelte';
 	import Logo from './../../components/logo.svelte'; 
-   
+    import {slide} from 'svelte/transition';
 
 </script>
 
@@ -66,7 +66,7 @@
 
    <div class="contenedor">
 	<Logo></Logo>
-    <div class="contactanos">
+    <div class="contactanos" transition:slide>
    <p>No importa donde te encuentres hacemos envios a toda Bolivia</p>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 

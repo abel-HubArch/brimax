@@ -1,4 +1,0 @@
-var briimax_letras = "/client/b27af7f758b86962.png";
-
-export { briimax_letras as b };
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGV0cmFzX2JyaWltYXguYzEwODVmNzYuanMiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9ub2RlX21vZHVsZXMvaW1hZ2VzL2xldHJhc19icmlpbWF4LnBuZyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBcIi9jbGllbnQvYjI3YWY3Zjc1OGI4Njk2Mi5wbmdcIiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxxQkFBZTs7OzsifQ==

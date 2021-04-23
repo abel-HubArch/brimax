@@ -2,7 +2,7 @@
 	import RedesSociales from './../components/redes_sociales.svelte';
 	import Overoles from './../components/overoles.svelte';
 	import Logo from './../components/logo.svelte';
-
+    import {blur} from 'svelte/transition';
 </script>
 <style>
 
@@ -32,6 +32,7 @@
 
 <div class="container">
 <Logo></Logo>
+<div class="animacion" transition:blur>
 <div class="nosotros">
     <h1>NOSOTROS</h1>
     <p>Ser una empresa reconocida por su liderazgo y competitividad empresarial, con tecnología de vanguardia y un recurso humano de excelencia, con orgullo de pertenencia, motivado y calificado, que proporcione servicios y productos con la mayor calidad en Seguridad Industrial.</p>
@@ -46,5 +47,5 @@
     <RedesSociales></RedesSociales> 
 </div>
 <Overoles></Overoles>
-
+</div>
 </div>

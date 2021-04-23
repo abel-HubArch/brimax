@@ -88,7 +88,7 @@ $: console.log(y);
 	 <Logo></Logo>
   </div>
 
-
+<div class="animacion" transition:slide>
 
    {#if y >= 20}
    <div class="menu" id='menu' transition:slide>
@@ -108,4 +108,5 @@ $: console.log(y);
    <DisenosPersonalizables></DisenosPersonalizables>
 
    <Overoles></Overoles>
+</div>
 </div>
